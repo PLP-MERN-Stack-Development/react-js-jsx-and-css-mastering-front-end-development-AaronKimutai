@@ -1,70 +1,75 @@
-# React.js and Tailwind CSS Assignment
+#🎨 Week 3 Project: React, Hooks, and Tailwind CSS Mastery  
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+This project demonstrates the core principles of modern front-end development using React (functional components & hooks), React Router, and the CSS-First approach of Tailwind CSS v4.1.  
 
-## Assignment Overview
+It features a fully responsive, single-page application (SPA) with real-time state management, API data consumption, and a user-controlled light/dark theme switcher.  
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+##🚀 Project Goals & Compliance  
 
-## Getting Started
+Task  
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+Status  
 
-## Files Included
+###Implementation Details    
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+###Task 1: Project Setup    
+  
 
-## Requirements
+Built with Vite and configured using the modern Tailwind CSS v4.1 Vite plugin and CSS-First configuration (src/index.css).  
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+###Task 2: Component Architecture    
 
-## Project Structure
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+Implemented reusable Button and Card components. Structure relies on the Layout component (src/components/Layout.jsx) which wraps all routes and hosts the NavBar and Footer.
 
-## Submission
+###Task 3: State Management  
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+TaskManager uses useState for UI state and the custom hook useLocalStorageTasks (src/hooks/useLocalStorageTasks.js) for data persistence. Theme management uses the Context API (src/context/ThemeContext.jsx).  
 
-## Resources
+###Task 4: API Integration  
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+ApiList fetches data from JSONPlaceholder (/todos), displays it using the reusable Card component, and implements both loading/error states and client-side pagination.  
+
+###Task 5: Styling
+
+
+Fully Responsive design across mobile/desktop breakpoints (sm:, md:). Implemented the Light/Dark Mode switcher using the dark: utility prefix and JavaScript control of the <html> root element.  
+
+##🛠️ Setup and Installation  
+
+Follow these steps in your terminal to get the project running locally:  
+
+Prerequisites  
+
+Node.js (v18 or higher recommended)  
+
+1. Install Dependencies  
+
+npm install  
+
+
+2. Configure Tailwind CSS (Already set up)  
+
+This project uses the modern Tailwind CSS v4.1 CSS-First approach. All configuration is done in src/index.css, and the build is handled automatically by the official @tailwindcss/vite plugin. No tailwind.config.js is needed.  
+
+3. Start Development Server  
+
+npm run dev  
+
+
+##🔗 Deployment and Submission    
+
+1. Deployed Application URL    
+
+
+## 📸 App Screenshots  
+
+Here are some previews of my Task Manager app:  
+
+![Screenshot 1](./src/assets/screenshot1.png)  
+![Screenshot 2](./src/assets/screenshot2.png)  
+![Screenshot 3](./src/assets/screenshot3.png)  
+
+
+
