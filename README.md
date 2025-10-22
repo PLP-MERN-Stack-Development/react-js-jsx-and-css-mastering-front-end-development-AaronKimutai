@@ -1,42 +1,42 @@
-#🎨 Week 3 Project: React, Hooks, and Tailwind CSS Mastery  
+# 🎨 Week 3 Project: React, Hooks, and Tailwind CSS Mastery  
 
 This project demonstrates the core principles of modern front-end development using React (functional components & hooks), React Router, and the CSS-First approach of Tailwind CSS v4.1.  
 
 It features a fully responsive, single-page application (SPA) with real-time state management, API data consumption, and a user-controlled light/dark theme switcher.  
 
-##🚀 Project Goals & Compliance  
+## 🚀 Project Goals & Compliance  
 
 Task  
 
 Status  
 
-###Implementation Details    
+### Implementation Details    
 
-###Task 1: Project Setup    
+###  1: Project Setup    
   
 
 Built with Vite and configured using the modern Tailwind CSS v4.1 Vite plugin and CSS-First configuration (src/index.css).  
 
-###Task 2: Component Architecture    
+### Task 2: Component Architecture    
 
 
 Implemented reusable Button and Card components. Structure relies on the Layout component (src/components/Layout.jsx) which wraps all routes and hosts the NavBar and Footer.
 
-###Task 3: State Management  
+### Task 3: State Management  
 
 
 TaskManager uses useState for UI state and the custom hook useLocalStorageTasks (src/hooks/useLocalStorageTasks.js) for data persistence. Theme management uses the Context API (src/context/ThemeContext.jsx).  
 
-###Task 4: API Integration  
+### Task 4: API Integration  
 
 ApiList fetches data from JSONPlaceholder (/todos), displays it using the reusable Card component, and implements both loading/error states and client-side pagination.  
 
-###Task 5: Styling
+### Task 5: Styling
 
 
 Fully Responsive design across mobile/desktop breakpoints (sm:, md:). Implemented the Light/Dark Mode switcher using the dark: utility prefix and JavaScript control of the <html> root element.  
 
-##🛠️ Setup and Installation  
+## 🛠️ Setup and Installation  
 
 Follow these steps in your terminal to get the project running locally:  
 
@@ -58,18 +58,25 @@ This project uses the modern Tailwind CSS v4.1 CSS-First approach. All configura
 npm run dev  
 
 
-##🔗 Deployment and Submission    
+## 🔗 Deployment and Submission     
 
 1. Deployed Application URL    
 
 
-## 📸 App Screenshots  
+## 📸 App Screenshots    
 
 Here are some previews of my Task Manager app:  
 
+## 🖼️ Screenshots  
+
+### Screenshot 1
 ![Screenshot 1](./src/assets/screenshot1.png)  
+
+### Screenshot 2
 ![Screenshot 2](./src/assets/screenshot2.png)  
-![Screenshot 3](./src/assets/screenshot3.png)  
+
+### Screenshot 3
+![Screenshot 3](./src/assets/screenshot3.png)
 
 
 
