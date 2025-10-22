@@ -70,13 +70,13 @@ Here are some previews of my Task Manager app:
 ## 🖼️ Screenshots  
 
 ### Screenshot 1
-![Screenshot 1](./src/assets/screenshot1.png)  
+![Screenshot 1](./src/assets/Screenshot1.png)  
 
 ### Screenshot 2
-![Screenshot 2](./src/assets/screenshot2.png)  
+![Screenshot 2](./src/assets/Screenshot2.png)  
 
 ### Screenshot 3
-![Screenshot 3](./src/assets/screenshot3.png)
+![Screenshot 3](./src/assets/Screenshot3.png)
 
 
 
