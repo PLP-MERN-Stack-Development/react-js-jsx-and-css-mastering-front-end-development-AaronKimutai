@@ -61,6 +61,7 @@ npm run dev
 ## 🔗 Deployment and Submission     
 
 1. Deployed Application URL    
+[![View on GitHub Pages](https://img.shields.io/badge/View%20Live%20Site-blue?style=for-the-badge)](https://plp-mern-stack-development.github.io/react-js-jsx-and-css-mastering-front-end-development-AaronKimutai/)
 
 
 ## 📸 App Screenshots    
